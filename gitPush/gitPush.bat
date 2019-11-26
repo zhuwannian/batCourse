@@ -12,3 +12,5 @@ git add %gitAddFile%
 set /p gitRemark=Please input git commit remark:
 echo gitRemark %gitRemark%
 git commit -m %gitRemark%
+
+
