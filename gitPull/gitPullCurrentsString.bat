@@ -7,8 +7,6 @@ set gitPullBranchName=
 for /F %%m in ('git symbolic-ref --short HEAD') do ( set gitBranch=%%m)
 echo current branch name : %gitBranch%
 
-
-
 if "%gitBranch%"=="master" (
 	echo yes
 	if "%gitMaster%"=="1" (
@@ -16,6 +14,7 @@ if "%gitBranch%"=="master" (
 		set isRun=1
 	) else (
 		echo 默认是不允许拉取master的代码，如果想拉取master的代码请gitMaster的值改成1
+		set isRun=0
 		pause
 		rem exit
 	)
