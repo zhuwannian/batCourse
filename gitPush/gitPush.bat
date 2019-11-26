@@ -15,8 +15,8 @@ git add %gitAddFile%
 
 :: input commit message
 set /p gitRemark=Please input git commit remark:
-echo gitRemark %gitRemark%
-git commit -m %gitRemark%
+echo gitRemark "%gitRemark%"
+git commit -m "%gitRemark%"
 
 for /F %%m in ('git symbolic-ref --short HEAD') do ( set gitBranch=%%m)
 echo current branch name : %gitBranch%
