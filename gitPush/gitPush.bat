@@ -10,6 +10,7 @@ git status
 :: input commit message
 set /p gitAddFile=Please input git add file:
 echo gitAddFile %gitAddFile%
+echo git add %gitAddFile%
 git add %gitAddFile%
 
 :: input commit message
