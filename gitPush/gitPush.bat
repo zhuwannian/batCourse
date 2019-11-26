@@ -33,10 +33,6 @@ if "%gitBranch%"=="master" (
 	)
 ) else (
 	echo NO
-	:: set gitBranch=zwndev_myCode19.11.1
-	:: set prefixEmpty=%gitBranch:zwndev_=%
-	:: set prefixEmpty=myCode19.11.1
-	:: set gitPushBranchName=%prefixEmpty%
 	set gitPushBranchName=%gitBranch%
 	set isRun=1
 
@@ -47,6 +43,7 @@ echo "-isRun-"%isRun%
 if "%isRun%"=="1" (
 	echo "git push origin %gitPushBranchName%"
 	git push origin %gitPushBranchName%
+
 ) else (
 	pause
 )
