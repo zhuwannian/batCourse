@@ -34,9 +34,10 @@ if "%gitBranch%"=="master" (
 ) else (
 	echo NO
 	:: set gitBranch=zwndev_myCode19.11.1
-	set prefixEmpty=%gitBranch:zwndev_=%
+	:: set prefixEmpty=%gitBranch:zwndev_=%
 	:: set prefixEmpty=myCode19.11.1
-	set gitPushBranchName=%prefixEmpty%
+	:: set gitPushBranchName=%prefixEmpty%
+	set gitPushBranchName=%gitBranch%
 	set isRun=1
 
 )
