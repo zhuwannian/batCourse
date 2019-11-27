@@ -1,0 +1,31 @@
+temp
+logECO
+application/config/config.php
+application/config/database-bd.php
+application/config/database-cs.php
+application/config/database-kf-ceshi.php
+application/config/database-yuansheng.php
+application/controllers/a/showprint_r.php
+application/logs
+application/cache
+application/models/proxies/
+application/controllers/test.php
+*showprint.php
+upload
+*.jpg
+*.jpeg
+*.gif
+*.txt
+*-*
+*.bak
+## This is the annotation
+## .gitignore
+*.tag*
+
+
+
+
+
+
+
+
