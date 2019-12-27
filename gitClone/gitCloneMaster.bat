@@ -8,7 +8,8 @@ set gitCloneUrlBase=git@github.com:zhuwannian/batCourse.git
 
 echo 'input git clone url: '%gitCloneUrlBase%
 
-set codeUrlBase=myCodeMaster19.11.1
+set codeUrlBase=batCourseCodeMaster
+:: set codeUrlBase=myCodeMaster19.11.1
 :: set codeUrlBase=orderManagementSystem
 echo 'input save code url: '%codeUrlBase%
 

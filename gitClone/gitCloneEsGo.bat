@@ -1,7 +1,7 @@
 @echo off
 
 set gitCloneBranchBase=T19121
-set gitCloneUrlBase=git@gitlab.acewill.cn:baiweilian/eco-es.git
+set gitCloneUrlBase=git@gitlab.acewill.cn:aiweilian/eco-es.git
 set prefixName=zwndev
 set repository=EsGo
 set codeUrlBase=%repository%_%gitCloneBranchBase%
@@ -10,7 +10,7 @@ set prefix=%prefixName%%repository%
 :: set gitCloneBranchBase=T19121
 echo 'input branch: '%gitCloneBranchBase%
 
-::set gitCloneUrlBase=git@gitlab.acewill.cn:baiweilian/shopwechat.git
+::set gitCloneUrlBase=git@gitlab.acewill.cn:aiweilian/shopwechat.git
 echo 'input git clone url: '%gitCloneUrlBase%
 
 :: set codeUrlBase=bwl_t191121

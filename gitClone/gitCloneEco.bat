@@ -1,7 +1,7 @@
 @echo off
 
 set gitCloneBranchBase=T19122
-set gitCloneUrlBase=git@gitlab.acewill.cn:baiweilian/eco.git
+set gitCloneUrlBase=git@gitlab.acewill.cn:aiweilian/eco.git
 set prefixName=zwndev
 set repository=Eco
 set codeUrlBase=%repository%_%gitCloneBranchBase%
@@ -12,7 +12,7 @@ set prefix=%prefixName%%repository%
 :: set gitCloneBranchBase=myCode19112
 echo 'input branch: '%gitCloneBranchBase%
 
-:: set gitCloneUrlBase=git@gitlab.acewill.cn:baiweilian/eco.git
+:: set gitCloneUrlBase=git@gitlab.acewill.cn:aiweilian/eco.git
 :: set gitCloneUrlBase=git@github.com:zhuwannian/git_test.git
 
 echo 'input git clone url: '%gitCloneUrlBase%
