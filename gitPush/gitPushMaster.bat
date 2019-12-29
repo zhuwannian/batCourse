@@ -6,7 +6,11 @@
 
 git add -A
 
+git status
+
 set commitMessage=-- ++
+
+echo git commit -m "%commitMessage%"
 
 git commit -m "%commitMessage%"
 
