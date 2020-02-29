@@ -1,9 +1,9 @@
 @echo off
 
 set gitCloneBranchBase=T19121
-set gitCloneUrlBase=git@gitlab.acewill.cn:aiweilian/eco-dish.git
+set gitCloneUrlBase=git@github.com:zhuwannian/batCourse.git
 set prefixName=zwndev
-set repository=EcoDish
+set repository=batCourseDish
 set codeUrlBase=%repository%_%gitCloneBranchBase%
 set prefix=%prefixName%%repository%
 

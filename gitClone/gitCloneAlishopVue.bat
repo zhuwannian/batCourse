@@ -1,9 +1,9 @@
 @echo off
 
 set gitCloneBranchBase=T19113
-set gitCloneUrlBase=git@gitlab.acewill.cn:baiweilian/alishop.git
+set gitCloneUrlBase=git@github.com:zhuwannian/batCourse.git
 set prefixName=zwndev
-set repository=AlishopVue
+set repository=batCourseVe
 set codeUrlBase=%repository%_%gitCloneBranchBase%
 set prefix=%prefixName%%repository%
 

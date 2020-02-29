@@ -7,7 +7,7 @@ set gitCloneUrlBase=%2
 set codeUrlBase=%3
 :: set codeUrlBase=batCourse19.11.1
 
-:: set gitCloneUrlBase=git@gitlab.acewill.cn:aiweilian/eco.git
+:: set gitCloneUrlBase=git@github.com:zhuwannian/batCourse.git
 
 echo 'input git clone url: '%gitCloneUrlBase%
 
